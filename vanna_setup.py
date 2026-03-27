@@ -1,12 +1,4 @@
-"""
-vanna_setup.py
-Initialises the Vanna 2.0 Agent with:
-  - GeminiLlmService (Google Gemini)
-  - SqliteRunner (clinic.db)
-  - ToolRegistry with RunSqlTool, VisualizeDataTool, and memory tools
-  - DemoAgentMemory
-  - SimpleUserResolver (all requests run as 'user' group)
-"""
+
 
 import os
 from dotenv import load_dotenv

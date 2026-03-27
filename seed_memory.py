@@ -1,10 +1,4 @@
-"""
-seed_memory.py
-Pre-seeds the Vanna 2.0 DemoAgentMemory with 20 known-good question–SQL pairs.
 
-Run AFTER setup_database.py:
-    python seed_memory.py
-"""
 
 import asyncio
 import uuid
